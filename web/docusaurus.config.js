@@ -3,6 +3,7 @@
 import { themes } from "prism-react-renderer";
 
 const siteConfig = require("./config");
+const isPersonalPreview = process.env.GITHUB_REPOSITORY === "emcmp/1P6";
 
 const lightCodeTheme = themes.vsLight;
 const darkCodeTheme = themes.vsDark;
@@ -11,13 +12,13 @@ const darkCodeTheme = themes.vsDark;
 const config = {
   title: siteConfig.nom,
   tagline: siteConfig.description,
-  url: "https://info.cegepmontpetit.ca/",
-  baseUrl: `/${siteConfig.nomUrl}/`,
+  url: isPersonalPreview ? "https://emcmp.github.io" : "https://info.cegepmontpetit.ca/",
+  baseUrl: isPersonalPreview ? "/1P6/" : `/${siteConfig.nomUrl}/`,
   onBrokenLinks: "throw",
   favicon: "img/favicon.ico",
 
-  organizationName: "departement-info-cem",
-  projectName: siteConfig.nomUrl,
+  organizationName: isPersonalPreview ? "emcmp" : "departement-info-cem",
+  projectName: isPersonalPreview ? "1P6" : siteConfig.nomUrl,
   deploymentBranch: "gh-pages",
   trailingSlash: false,
 
@@ -59,7 +60,9 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           routeBasePath: "/",
-          editUrl: `https://github.com/departement-info-cem/${siteConfig.nomUrl}/tree/main/web`,
+          editUrl: isPersonalPreview
+            ? "https://github.com/emcmp/1P6/tree/personal-preview/web"
+            : `https://github.com/departement-info-cem/${siteConfig.nomUrl}/tree/main/web`,
         },
         theme: {
           customCss: [require.resolve("./src/css/custom.css")],

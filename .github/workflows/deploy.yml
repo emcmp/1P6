@@ -3,7 +3,7 @@ name: Déploiement
 on:
   push:
     branches:
-      - main
+      - personal-preview
     paths:
       - 'web/**'
       - '.github/workflows/deploy.yml'
@@ -18,6 +18,7 @@ concurrency:
 
 jobs:
   build:
+    if: github.repository == 'emcmp/1P6' && github.ref == 'refs/heads/personal-preview'
     name: Build le site
     runs-on: ubuntu-latest
     steps:
@@ -45,6 +46,7 @@ jobs:
         with:
           path: ./web/build
   deploy:
+    if: github.repository == 'emcmp/1P6' && github.ref == 'refs/heads/personal-preview'
     name: Déployer le site
     needs: build
 
