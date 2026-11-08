@@ -1,9 +1,8 @@
 ---
-description: Pondération 15%
+description: Temps en classe pour terminer et remettre le TP4
 ---
 
-# Intégration - TP4 - Suite
-
+# Intégration — TP4 : combats et remise (14.2)
 
 <Row>
 
@@ -23,13 +22,11 @@ Plusieurs séances d'intégration auront des exercices supplémentaires à compl
 
 :::info Travail à faire
 
-Exercices à compléter. Tu peux compléter les exercices ou essayer de refaire ceux qui t'ont posé problème. C'est une bonne préparation à l'examen où les exercices ont le même format.
+Termine le [TP4](../02-tp/04-tp4.md) : boucle et menu de combat, attaques, consommation des objets, riposte et fin de combat.
 
-Tu dois avancer ton travail en cours et poser des questions si tu es actuellement bloqué.
+Effectue les essais courts de l'énoncé : choix invalide, potion absente, ennemi vaincu sans riposte, défaite qui arrête la navigation, puis victoire à la porte avec la clé.
 
-Ton professeur est disponible pour des questions sur tout le contenu vu jusqu'ici.
-
-Tu peux prendre de l'avance en regardant le contenu des semaines qui arrivent.
+Cible : **100 % du TP4**. Remets le projet console complet selon les modalités du cours. La fuite et l'affichage avancé sont facultatifs et hors de la grille sur 100.
 
 :::
 

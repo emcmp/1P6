@@ -2,8 +2,7 @@
 description: Temps en classe pour travailler sur le TP
 ---
 
-# Intégration  - TP4 - Démineur
-
+# Intégration — TP3 : fichiers et remise (13.2)
 
 <Row>
 
@@ -23,13 +22,11 @@ Plusieurs séances d'intégration auront des exercices supplémentaires à compl
 
 :::info Travail à faire
 
-Exercices à compléter. Tu peux compléter les exercices ou essayer de refaire ceux qui t'ont posé problème. C'est une bonne préparation à l'examen où les exercices ont le même format.
+Poursuis le [TP3](../02-tp/03-tp3.md), partie 2 : prépare `donjon.csv` à virgules et charge une carte de taille variable avec une liste.
 
-Tu dois avancer ton travail en cours et poser des questions si tu es actuellement bloqué.
+Teste une carte rectangulaire, le fichier vide et des lignes de longueurs différentes. Vérifie encore le parcours clé/porte après chargement.
 
-Ton professeur est disponible pour des questions sur tout le contenu vu jusqu'ici.
-
-Tu peux prendre de l'avance en regardant le contenu des semaines qui arrivent.
+Cible : **100 % du TP3**. Remets le projet console avec son CSV selon les modalités du cours. Garde cette version pour le TP4; les combats commenceront à la prochaine rencontre.
 
 :::
 

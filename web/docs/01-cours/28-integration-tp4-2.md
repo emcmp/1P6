@@ -2,8 +2,7 @@
 description: Temps en classe pour travailler sur le TP
 ---
 
-# Intégration - TP4 - Suite
-
+# Intégration — TP4 : personnage et événements (14.1)
 
 <Row>
 
@@ -23,13 +22,13 @@ Plusieurs séances d'intégration auront des exercices supplémentaires à compl
 
 :::info Travail à faire
 
-Exercices à compléter. Tu peux compléter les exercices ou essayer de refaire ceux qui t'ont posé problème. C'est une bonne préparation à l'examen où les exercices ont le même format.
+Commence le [TP4](../02-tp/04-tp4.md) dans ton projet console du TP3. Initialise le personnage et le sac à partir du TP2 ou de la version simplifiée proposée.
 
-Tu dois avancer ton travail en cours et poser des questions si tu es actuellement bloqué.
+Programme la recherche, l'ajout et le retrait dans le sac. Déclenche les événements potion, ration et ennemi après un déplacement valide; raccorde la clé et la porte au traitement existant. Un message provisoire suffit aujourd'hui pour `Combat()`.
 
-Ton professeur est disponible pour des questions sur tout le contenu vu jusqu'ici.
+Teste un sac plein et le retour dans une salle déjà résolue. Si ton TP3 est incomplet, utilise la base minimale indiquée dans le TP4 avec l'aide du professeur.
 
-Tu peux prendre de l'avance en regardant le contenu des semaines qui arrivent.
+Cible : environ **50 % du TP4**. **Aucune remise aujourd'hui.**
 
 :::
 
