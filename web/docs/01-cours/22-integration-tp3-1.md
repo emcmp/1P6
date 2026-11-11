@@ -2,7 +2,8 @@
 description: Temps en classe pour travailler sur le TP
 ---
 
-# Intégration — TP3 : navigation (13.1)
+# Intégration - TP3 - Moins Mini RPG
+
 
 <Row>
 
@@ -22,11 +23,13 @@ Plusieurs séances d'intégration auront des exercices supplémentaires à compl
 
 :::info Travail à faire
 
-Ouvre le [TP3](../02-tp/03-tp3.md) et réalise les six étapes de la partie 1 : grille 2D, visites, affichage, menu, déplacements et clé/porte.
+Exercices à compléter. Tu peux compléter les exercices ou essayer de refaire ceux qui t'ont posé problème. C'est une bonne préparation à l'examen où les exercices ont le même format.
 
-Teste les limites de la grille, une saisie invalide, Quitter et la porte avec ou sans clé. Demande de l'aide dès qu'un essai échoue.
+Tu dois avancer ton travail en cours et poser des questions si tu es actuellement bloqué.
 
-Cible de fin de rencontre : environ **50 % du TP3**, navigation fonctionnelle. **Aucune remise aujourd'hui.** La prochaine rencontre sert au CSV et à la remise du TP3.
+Ton professeur est disponible pour des questions sur tout le contenu vu jusqu'ici.
+
+Tu peux prendre de l'avance en regardant le contenu des semaines qui arrivent.
 
 :::
 

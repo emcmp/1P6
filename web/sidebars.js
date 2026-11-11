@@ -439,41 +439,41 @@ const sidebars = {
     },
     {
       type: "doc",
-      label: "13.1 - TP3 - Navigation",
+      label: "13.1 - TP3 - RPG avancé",
       id: "cours/integration-tp3-1",
+      className: "remise-tp3",
       customProps: {
         avancementLabel: "TP3",
-        avancement: 0.5,
+        avancement: 1.0,
         calendrier: buildCalendrierForIndex(24),
         tooltip:"cache"
       }
     },
     {
       type: "doc",
-      label: "13.2 - TP3 - Fin et remise",
+      label: "13.2 - TP4 / Projet - Démineur",
       id: "cours/integration-tp4-1",
-      className: "remise-tp3",
       customProps: {
-        avancementLabel: "TP3",
-        avancement: 1.0,
+        avancementLabel: "TP4",
+        avancement: 0.3,
         calendrier: buildCalendrierForIndex(25),
         tooltip:"cache"
       }
     },
     {
       type: "doc",
-      label: "14.1 - TP4 - Personnage et événements",
+      label: "14.1 - TP4 / Projet - Suite",
       id: "cours/integration-tp4-2",
       customProps: {
         avancementLabel: "TP4",
-        avancement: 0.5,
+        avancement: 0.65,
         calendrier: buildCalendrierForIndex(26),
         tooltip:"cache"
       }
     },
     {
       type: "doc",
-      label: "14.2 - TP4 - Combats et remise",
+      label: "14.2 - TP4 / Projet - Suite",
       id: "cours/integration-tp4-3",
       className: "remise-tp4",
       customProps: {
