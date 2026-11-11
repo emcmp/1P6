@@ -439,7 +439,7 @@ const sidebars = {
     },
     {
       type: "doc",
-      label: "13.1 - TP3 - RPG avancé",
+      label: "13.1 - TP3 - Navigation et CSV",
       id: "cours/integration-tp3-1",
       className: "remise-tp3",
       customProps: {
@@ -451,7 +451,7 @@ const sidebars = {
     },
     {
       type: "doc",
-      label: "13.2 - TP4 / Projet - Démineur",
+      label: "13.2 - TP4 - Évènements et combats",
       id: "cours/integration-tp4-1",
       customProps: {
         avancementLabel: "TP4",
@@ -462,7 +462,7 @@ const sidebars = {
     },
     {
       type: "doc",
-      label: "14.1 - TP4 / Projet - Suite",
+      label: "14.1 - TP4 - Suite",
       id: "cours/integration-tp4-2",
       customProps: {
         avancementLabel: "TP4",
@@ -473,7 +473,7 @@ const sidebars = {
     },
     {
       type: "doc",
-      label: "14.2 - TP4 / Projet - Suite",
+      label: "14.2 - TP4 - Suite et remise",
       id: "cours/integration-tp4-3",
       className: "remise-tp4",
       customProps: {
